@@ -1,0 +1,47 @@
+{
+  "name": "node-lcz",
+  "version": "1.0.0",
+  "description": "node project",
+  "author": {
+    "name": "liu chuanzhong",
+    "email": "ncsqlcz@126.com"
+  },
+  "license": "MIT",
+  "homepage": "http://127.0.0.1:8090/",
+  "keywords": [
+    "express",
+    "framework",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
+  "private": true,
+  "scripts": {
+    "test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/"
+  },
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.3",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-router-cache": "^2.0.0",
+    "koa-static": "^5.0.0",
+    "koa-static-cache": "^5.1.2",
+    "koa-views": "^6.1.4",
+    "koa2-cors": "^2.0.6",
+    "morgan": "^1.9.1",
+    "spdy": "^3.4.7"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
